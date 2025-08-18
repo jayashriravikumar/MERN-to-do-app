@@ -1,0 +1,43 @@
+.welcome{
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center; 
+  height: 100vh; 
+}
+
+.overlay {
+  background: rgba(40, 118, 147, 0.5);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7); /* dark transparent overlay for readability */
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: rgba(248, 82, 88, 0.36);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.start-btn:hover {
+  background: rgba(242, 15, 23, 0.46);
+  transform: translateY(-3px);
+}
